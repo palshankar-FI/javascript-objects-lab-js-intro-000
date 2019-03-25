@@ -19,6 +19,7 @@ function deleteFromObjectByKey(obj, key) {
 
 function destructivelyDeleteFromObjectByKey(obj, key) {
   delete obj[key];
+  return(obj);
 }
   it('returns object without the delete key/value pair', function() {
     var obj = { prop: 1 }
