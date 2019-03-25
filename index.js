@@ -22,7 +22,7 @@ function updateObjectWithKeyAndValue(obj, key, value) {
 
     expect(obj['prop2']).toBe(undefined)
   })
-  
+
   it('returns an object with an updated key value pair', function() {
     var obj = { prop: 'old value' }
 
